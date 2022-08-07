@@ -10,7 +10,7 @@ const App = () => {
     <div className="text-center px-4">
       <textarea
         name="text"
-        id="text"
+        id="editor"
         rows="10"
         value={text}
         onChange={(e) => setText(e.target.value)}
